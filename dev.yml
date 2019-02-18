@@ -1,0 +1,9 @@
+web:
+    image: mynginx:latest
+    container_name: mynginx6
+#    volumes:
+#      - ./mysite.template:/etc/nginx/conf.d/mysite.template
+    ports:
+      - 80:80
+    expose:
+      - "80"

@@ -34,7 +34,7 @@ fi
 echo Your selection is : $SELECTION.
 echo Your parameter is : $PARAM2.
 
-IMAGE=nginx
+IMAGE=mynginx
 CONTAINER=mynginx6
 
 case "$SELECTION" in
@@ -88,6 +88,12 @@ case "$SELECTION" in
   docker logs $CONTAINER
   ;;
 
+  "07" )
+  echo ===========================================================
+  echo Docker Compose
+  echo ===========================================================
+  docker-compose -f dev.yml up -d
+  ;;
 
   "qq" )
   echo Quit

@@ -5,8 +5,8 @@ Customising Nginx image for Docker
 
 ## Table of Contents
 - [Docker Base](#dockeringinx-history) 
-  - Dockerbase Features
-  - [Dockerbase Usage](#dockernginx-usage)
+  - Dockernginx Features
+  - [Dockernginx Usage](#dockernginx-usage)
   - [External References](#external-references)
 
 ## Dockernginx Usage
